@@ -15,6 +15,13 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images:{
+    remotePatterns:[
+      {
+        "hostname":"media0.giphy.com"
+      }
+    ]
+  }
 };
 
 export default nextConfig;
